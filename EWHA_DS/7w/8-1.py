@@ -29,7 +29,7 @@ class CityTemp():
     # 클래스 속성 정의
     # 초기화 메서드
     def __init__(self, cityName, monthlyTemp):
-        self.cityName = cityName # 비공개 속성으로 도시이름 설정
+        self.__cityName = cityName # 비공개 속성으로 도시이름 설정
         self.__monthlyTemp = monthlyTemp # 비공개 속성으로 월별 평균 기온 설정
 
     # 도시 이름을 가져오는 메서드
