@@ -1,7 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42586
 from math import ceil
-
-
 def solution(progresses, speeds):
     answer = []  # 각 배포마다 몇개 기능이 배포되는지 저장
     days = []  # 각 기능이 완료되기까지 걸리는 일수 저장

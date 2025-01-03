@@ -2,7 +2,6 @@
 
 from collections import deque
 
-
 def solution(priorities, location):
     # 큐에 우선순위 와 인덱스 형태로 저장
     queue = deque((priority, index) for index, priority in enumerate(priorities))
