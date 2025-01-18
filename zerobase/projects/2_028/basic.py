@@ -10,6 +10,7 @@ diurnal_temp= max_temp -min_temp
 if diurnal_temp >= 11:
     print(f"일교차 :{diurnal_temp} 도")
     print("감기 조심하세요.")
+    # else 뒤에 조건이 없다.
 else :
     print(f"일교차 :{diurnal_temp} 도")
     print("산책하기 좋은 날씨 입니다.")
