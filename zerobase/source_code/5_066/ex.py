@@ -53,8 +53,8 @@ while True:
         print(f'출금 후 잔액 : {int(m) - money}')
 
     elif selectNumber == 3:
-        print('Bye~')
+        print('프로그램 종료 ')
         break
 
     else:
-        print('잘못 입력하셨습니다.')
+        print('잘못 입력하셨습니다, 다시 입력 하세요.')

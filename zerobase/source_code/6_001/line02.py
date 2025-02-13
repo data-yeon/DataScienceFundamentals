@@ -7,6 +7,7 @@ searchResultIdx = -1
 
 datas.append(searchData)
 
+# 보초법을 활용한 것.
 n = 0
 while True:
 

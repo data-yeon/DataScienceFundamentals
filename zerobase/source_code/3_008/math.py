@@ -1,4 +1,4 @@
-수 두개의 최소공배수
+# 수 두개의 최소공배수
 num1 = int(input('1보다 큰 정수 입력: '))
 num2 = int(input('1보다 큰 정수 입력: '))
 maxNum = 0
@@ -12,8 +12,7 @@ print('최대공약수: {}'.format(maxNum))
 
 minNum = (num1 * num2) // maxNum
 print('최소공배수: {}'.format(minNum))
-
-
+ # 숫자 두개를 곱해 최대 공약수로 나눈 몫
 
 # 수 세개의 최소공배수
 num1 = int(input('1보다 큰 정수 입력: '))
